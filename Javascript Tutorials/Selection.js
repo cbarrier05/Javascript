@@ -60,3 +60,14 @@ if (a < b) {
 }
 // To this
 return a < b;
+
+
+// This can be simplifed
+if (a < b) {
+    return a + 5;
+} else {
+    return a + 5;
+}
+// To this
+return a < b ? a+5 : b+5;
+// This is a Ternary Operator   It can be nested with itself

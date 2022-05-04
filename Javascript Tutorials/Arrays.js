@@ -18,3 +18,10 @@ var removed = myArray.shift();
 
 // Adding element to front
 myArray.unshift("Apple")
+
+// When array defined with const
+const a = [1, 2, 3];
+// You cant replace it
+a = [4, 5, 6]
+// But you can update elements
+a[0] = 4

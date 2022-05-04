@@ -26,3 +26,8 @@ var lastLetter = myString[myString.length - 1]
 // String Immutability
 // Cannot change each character individually
 // myString[1] = "A" doesn't work
+
+// Converting string to integer, only works if all characters in string are numbers
+parseInt(myString)
+// To do it with a different number system
+parseInt(myString, 2)  // Now recognises result as base 2

@@ -41,3 +41,11 @@ return myObject.hasOwnProperty("name")  // Returns true if myObject has a proper
 myObject.garage.car;
 // If object1 and object2 are 2 objects with in an array called objectArray, to access object1 type
 objectArray[0]
+
+// Destructured assignment
+var myObject = {
+    x: 1,
+    y: 1,
+    z: 1
+};
+const {x : value1, y : value2, z : value3} = myObject;  // now variable value1 has the contents of x from the object

@@ -19,3 +19,11 @@ function myFunction(a,b) {
     return a + b;
 }
 var value = myFunction(10, 5);
+
+// How to set default values
+function myFunction(a, b = 2)   // b now has a default value of 2 if nothing is entered
+
+// Using rest function to allow multiple arguments
+function myFunction(...args) {  // This will take any number of arguemetns and put them into an array called args
+    return args.length;
+}
